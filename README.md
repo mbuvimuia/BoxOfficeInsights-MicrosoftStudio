@@ -81,7 +81,7 @@ b. Visualization 2: Production Budget vs. Profit
 ![scatter plot production budget vs profit](image-1.png)
 This visualization shows the relationship between production budgets and profits. It helps identify the impact of production budgets on movie profitability and provides insights into the cost-effectiveness of movie production.
 
-c.Visualization 3: Top 10 Movie Studios Raking in the Highest Profits
+c. Visualization 3: Top 10 Movie Studios Raking in the Highest Profits
 ![Bar graph showing the Top 10 Movie Studios Raking in the Highest Profits](image-2.png)
 This visualization shows the top 10 movie studios raking in the highest profits. It helps identify the most successful movie studios in terms of profitability and provides insights into the competitive landscape of the movie industry.
 
