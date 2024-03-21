@@ -48,26 +48,25 @@ The primary stakeholder for this project is Microsoft, which is looking to enter
 ### Description of Data
 
 The project utilizes multiple datasets sourced from various sources within the movie industry. Each dataset provides unique insights into different aspects of the movie landscape, including box office performance, genre trends, release patterns, and studio profitability. Here's an overview of the datasets used:
+1. Box Office Mojo Dataset
+    Structure: This dataset contains information on movie titles, studios, domestic gross revenue, foreign gross revenue, and release years.
+    Relevant Details: The dataset helps analyze the financial performance of movies at the box office, including revenue distribution, trends over time, and the impact of studios on movie profitability.
 
-    Box Office Mojo Dataset
-        Structure: This dataset contains information on movie titles, studios, domestic gross revenue, foreign gross revenue, and release years.
-        Relevant Details: The dataset helps analyze the financial performance of movies at the box office, including revenue distribution, trends over time, and the impact of studios on movie profitability.
+2. The Numbers Dataset
+    Structure: This dataset includes details on movie titles, release dates, production budgets, domestic gross revenue, worldwide gross revenue, total gross revenue, and profitability.
+    Relevant Details: The dataset facilitates analysis of movie economics, including production costs, revenue generation, profitability trends, and correlations between financial metrics.
 
-    The Numbers Dataset
-        Structure: This dataset includes details on movie titles, release dates, production budgets, domestic gross revenue, worldwide gross revenue, total gross revenue, and profitability.
-        Relevant Details: The dataset facilitates analysis of movie economics, including production costs, revenue generation, profitability trends, and correlations between financial metrics.
+3. Rotten Tomatoes Movie Dataset
+    Structure: This dataset provides information on movie IDs, synopses, ratings, genres, directors, writers, theater release dates, DVD release dates, currency, box office revenue, runtime, and studios.
+    Relevant Details: The dataset enables analysis of movie genres, critical ratings, release strategies, and studio affiliations, offering insights into audience preferences and industry trends.
 
-    Rotten Tomatoes Movie Dataset
-        Structure: This dataset provides information on movie IDs, synopses, ratings, genres, directors, writers, theater release dates, DVD release dates, currency, box office revenue, runtime, and studios.
-        Relevant Details: The dataset enables analysis of movie genres, critical ratings, release strategies, and studio affiliations, offering insights into audience preferences and industry trends.
+4. Rotten Tomatoes Reviews Dataset
+    Structure: This dataset contains movie IDs, reviews, ratings, freshness indicators, critics' details, and publication dates.
+    Relevant Details: The dataset facilitates sentiment analysis, critical reception evaluation, and reviewer insights, contributing to understanding audience reactions and movie reception.
 
-    Rotten Tomatoes Reviews Dataset
-        Structure: This dataset contains movie IDs, reviews, ratings, freshness indicators, critics' details, and publication dates.
-        Relevant Details: The dataset facilitates sentiment analysis, critical reception evaluation, and reviewer insights, contributing to understanding audience reactions and movie reception.
-
-    IMDB Database (Not Directly Used)
-        Structure: The IMDB database comprises multiple tables, including movie basics, directors, known for, movie AKAs, movie ratings, persons, principals, and writers.
-        Relevant Details: While not directly utilized, the IMDB database could potentially offer additional information on movie attributes, crew details, and industry connections for further analysis and enrichment.
+5. IMDB Database (Not Directly Used)
+    Structure: The IMDB database comprises multiple tables, including movie basics, directors, known for, movie AKAs, movie ratings, persons, principals, and writers.
+    Relevant Details: While not directly utilized, the IMDB database could potentially offer additional information on movie attributes, crew details, and industry connections for further analysis and enrichment.
 
 Each dataset was meticulously cleaned, preprocessed, and analyzed to extract meaningful insights into different aspects of the movie industry. By leveraging these diverse datasets, the project provides comprehensive analyses and recommendations for strategic decision-making in the movie studio venture.
 
@@ -89,13 +88,13 @@ This visualization shows the top 10 movie studios raking in the highest profits.
 ## Conclusion
 Key Findings:
 
-    Box Office Performance Trends:
-        The analysis reveals that domestic, worldwide, and total gross revenues demonstrate right-skewed distributions with considerable variability. Despite fluctuations, there is a notable upward trend in revenues from 2010 to 2018, peaking in 2018. This indicates the industry's overall growth and potential for revenue generation.
+1. Box Office Performance Trends:
+    The analysis reveals that domestic, worldwide, and total gross revenues demonstrate right-skewed distributions with considerable variability. Despite fluctuations, there is a notable upward trend in revenues from 2010 to 2018, peaking in 2018. This indicates the industry's overall growth and potential for revenue generation.
 
-    Genre Preferences and Audience Engagement:
-        Drama, comedy, and action emerge as the most prevalent genres, while documentary exhibits minimal representation. Understanding these genre preferences provides valuable insights for content creation strategies, allowing Microsoft to tailor its productions to align with audience interests and maximize engagement.
+2. Genre Preferences and Audience Engagement:
+    Drama, comedy, and action emerge as the most prevalent genres, while documentary exhibits minimal representation. Understanding these genre preferences provides valuable insights for content creation strategies, allowing Microsoft to tailor its productions to align with audience interests and maximize engagement.
 
-    Release Date Dynamics and Industry Competitiveness:
-        December emerges as the month with the highest number of movie releases, followed by October, August, and September. Moreover, the consistent increase in movie releases over the years reflects the industry's competitiveness and growth trajectory. By strategically timing releases and leveraging insights into release date dynamics, Microsoft can optimize audience reach and box office performance for its movie productions.
+3. Release Date Dynamics and Industry Competitiveness:
+    December emerges as the month with the highest number of movie releases, followed by October, August, and September. Moreover, the consistent increase in movie releases over the years reflects the industry's competitiveness and growth trajectory. By strategically timing releases and leveraging insights into release date dynamics, Microsoft can optimize audience reach and box office performance for its movie productions.
 
 These findings underscore the importance of data-driven decision-making in navigating the complexities of the movie industry, enabling Microsoft's movie studio venture to capitalize on emerging trends, audience preferences, and industry dynamics for sustainable success.
